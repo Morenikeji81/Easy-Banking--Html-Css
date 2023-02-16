@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+body {
+  position: relative;
+}
+.navigation {
+  display: flex;
+  margin-top: 15px;
+}
+#border-bottom:hover {
+  border-bottom: 3px solid hsl(136, 65%, 51%);
+  cursor: pointer;
+}
+#border-bottom .active {
+  border-bottom: 3px solid hsl(136, 65%, 51%);
+}
+.mockups {
+  position: absolute;
+  top: 70px;
+  right: 200px;
+}
+.img--logo {
+  margin: 0px 150px 0px 140px;
+}
+.img-desktop {
+  padding-left: 50px;
+}
+.home,
+.about,
+.contact,
+.blog,
+.careers {
+  margin-right: 40px;
+}
+.btn--btn {
+  color: white;
+  background-color: hsl(136, 65%, 51%);
+  border: none;
+  border-radius: 20px;
+  padding: 10px 30px 10px 30px;
+  margin-left: 170px;
+  transition: all 3s;
+  cursor: pointer;
+}
+.first-section {
+  background-color: hsl(0, 0%, 98%);
+  padding-left: 140px;
+  margin-top: 5px;
+}
+.first-section {
+  display: flex;
+}
+.first-section-heading {
+  font-size: 30px;
+  padding: 100px 0px 10px 0px;
+}
+.first-section-btn {
+  color: white;
+  background-color: hsl(136, 65%, 51%);
+  border: none;
+  border-radius: 20px;
+  padding: 10px 30px 10px 30px;
+  margin-top: 30px;
+  transition: all 3s;
+  cursor: pointer;
+}
+.second-section {
+  background-color: hsl(220, 16%, 96%);
+  padding: 0px 0px 60px 140px;
+}
+.second-section-heading {
+  padding-top: 100px;
+}
+.online-banking,
+.simple-budgeting,
+.fast-onboarding,
+.open-api {
+  margin-right: 50px;
+}
+.online-banking-image,
+.simple-budgeting-image,
+.fast-onboarding-image,
+.open-api-image {
+  padding: 50px 0px 20px 0px;
+}
+.online-heading-paragraph,
+.simple-budgeting-paragraph,
+.fast-onboarding-paragraph,
+.open-api-paragraph {
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+.second-section-flex {
+  display: flex;
+}
+.third-section {
+  margin: 0px 0px 100px 140px;
+}
+.third-section-heading {
+  margin: 100px 0px 50px 0px;
+  font-size: 40px;
+}
+.third-section-flex {
+  display: flex;
+}
+.currency,
+.restaurant,
+.plane,
+.confetti {
+  box-shadow: 0 3px 10px rgba(96, 17, 17, 0.2);
+  width: 250px;
+  height: 400px;
+  margin-right: 30px;
+  cursor: pointer;
+}
+.currency-paragraph,
+.restaurant-paragraph,
+.plane-paragraph,
+.confetti-paragraph {
+  font-size: 12px;
+  padding: 20px 0px 10px 20px;
+}
+.currency-paragraph1,
+.restaurant-paragraph1,
+.plane-paragraph1,
+.confetti-paragraph1 {
+  font-weight: bold;
+  padding: 0px 0px 20px 20px;
+}
+#paragraph1:hover {
+  color: hsl(136, 65%, 51%);
+}
+.currency-paragraph2,
+.restaurant-paragraph2,
+.plane-paragraph2,
+.confetti-paragraph2 {
+  padding-left: 20px;
+  font-size: 14px;
+}
+.last-section {
+  background-color: hsl(233, 26%, 24%);
+  color: white;
+  display: flex;
+  padding: 40px 0px 0px 140px;
+  cursor: pointer;
+}
+.image-flex,
+.last-section-about,
+.about-contd {
+  margin: 0px 200px 50px 0px;
+}
+.request-btn {
+  color: white;
+  background-color: hsl(136, 65%, 51%);
+  border: none;
+  border-radius: 20px;
+  padding: 10px 30px 10px 30px;
+  transition: all 3s;
+}
+.image---flex {
+  padding-top: 50px;
+}
+.last-section-about,
+.about-contd,
+.request----btn {
+  line-height: 40px;
+}
+.about1:hover {
+  color: hsl(136, 65%, 51%);
+}
+.image:hover {
+  background-color: hsl(136, 65%, 51%);
+}
+.about-contd1:hover {
+  color: hsl(136, 65%, 51%);
+}
+.request--paragraph:hover {
+  color: hsl(136, 65%, 51%);
+}
+
+  
